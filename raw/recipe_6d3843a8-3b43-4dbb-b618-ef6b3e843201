@@ -1,0 +1,43 @@
+{
+  "id": "6d3843a8-3b43-4dbb-b618-ef6b3e843201",
+  "date": "2026-06-18T16:01:24.877272+00:00",
+  "client_id": 960,
+  "recipe": [
+    {
+      "marca_comercial": "FungiOuro",
+      "ingrediente_ativo": "Bacillus subtilis, cepa CCT 1331",
+      "formulacao": "FW - Fumigante em Grânulos",
+      "tecnica": "aplicação foliar",
+      "cultura": "Zinnia",
+      "praga": "Gorgulho-do-feijão-de-corda",
+      "dosagem": 110
+    },
+    {
+      "marca_comercial": "Biolord",
+      "ingrediente_ativo": "Bacillus amyloliquefaciens , isolado IMA 412",
+      "formulacao": "Formulação mista CS e SC",
+      "tecnica": "Tratamento de sementes",
+      "cultura": "Pinha",
+      "praga": "Bredo",
+      "dosagem": 105
+    },
+    {
+      "marca_comercial": "Turbine 500 WG",
+      "ingrediente_ativo": "trifloxistrobina",
+      "formulacao": "CF - Suspensão Encapsulado p/ Trat. Sementes",
+      "tecnica": "Armadilhas",
+      "cultura": "Ruscus",
+      "praga": "Manchas do tronco",
+      "dosagem": 50
+    },
+    {
+      "marca_comercial": "Brigada EC",
+      "ingrediente_ativo": "Metarhizium rileyi CG 1153",
+      "formulacao": "PA - Pasta",
+      "tecnica": "Trat. Grãos Armazenados",
+      "cultura": "Duboisia",
+      "praga": "Cipó",
+      "dosagem": 155
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "370f1edd-b96d-4af3-91d5-d65a4c7dd893",
+  "date": "2026-06-18T16:02:19.998267+00:00",
+  "client_id": 13,
+  "recipe": [
+    {
+      "marca_comercial": "Hosanna",
+      "ingrediente_ativo": "dodina",
+      "formulacao": "SE - Suspo-Emulsão",
+      "tecnica": "Tratamento de sementes",
+      "cultura": "Chá",
+      "praga": "Branco-da-roseira",
+      "dosagem": 95
+    },
+    {
+      "marca_comercial": "Engeo Pleno ZC",
+      "ingrediente_ativo": "Trichoderma harzianum, isolado IB 19/17",
+      "formulacao": "Insetos Vivos",
+      "tecnica": "Tratamento de sementes",
+      "cultura": "Eucalipto",
+      "praga": "Mal-de-sete-voltas",
+      "dosagem": 125
+    },
+    {
+      "marca_comercial": "Atrazina 500 SC CCAB",
+      "ingrediente_ativo": "miclobutanil",
+      "formulacao": "UL - Ultra Baixo Volume",
+      "tecnica": "Trat. Sementes",
+      "cultura": "Bromelia",
+      "praga": "Doença-açúcarada-do-sorgo",
+      "dosagem": 170
+    },
+    {
+      "marca_comercial": "Sulfato de Cobre Inderco",
+      "ingrediente_ativo": "carboxina",
+      "formulacao": "Nematóides vivos",
+      "tecnica": "Trat. Grãos Armazenados",
+      "cultura": "Pinus",
+      "praga": "Nabiça",
+      "dosagem": 70
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "0766e5af-8181-4d5c-a3e7-60d3dfc7f5ac",
+  "date": "2026-06-18T16:01:49.932833+00:00",
+  "client_id": 73,
+  "recipe": [
+    {
+      "marca_comercial": "Dual Gold 915 EC",
+      "ingrediente_ativo": "acetato de (E)-8-dodecenila",
+      "formulacao": "UL - Ultra Baixo Volume",
+      "tecnica": "Trat. Grãos Armazenados",
+      "cultura": "Paricá",
+      "praga": "Fusarium equiseti",
+      "dosagem": 70
+    },
+    {
+      "marca_comercial": "Balin TSI",
+      "ingrediente_ativo": "Glifosato-Sal de Di-amônio",
+      "formulacao": "EO - Emulsão Água em Óleo",
+      "tecnica": "Trat. Grãos Armazenados",
+      "cultura": "Ruscus",
+      "praga": "Pulgão-do-fumo",
+      "dosagem": 30
+    }
+  ]
+}

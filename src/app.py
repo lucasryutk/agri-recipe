@@ -17,7 +17,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.StreamHandler(),                        
-        logging.FileHandler(f'{path} / generating.logs', encoding='utf-8')  
+        logging.FileHandler(f'{path}/generating.logs', encoding='utf-8')  
     ]
 )
 
@@ -86,13 +86,14 @@ def export_recipe(recipe):
     recipe_id = recipe['id']
     file_name = f'recipe_{recipe_id}'
     json_content = json.dumps(recipe, indent=2, ensure_ascii=False)
-    path.mkdir(exist_ok=True)
-    (path / file_name).write_text(json_content, encoding="utf-8")
+    (path/'raw').mkdir(exist_ok=True)
+    (path/'raw'/file_name).write_text(json_content, encoding="utf-8")
 
     return file_name
 
 def main():
     logger.info(f'Criando registros de receitas agronômicas a cada {interval} segundos - Use Ctrl + C para interromper os registros')
+    sleep(3)
     while True:
         recipe = generate_recipe()
         recipe_name = export_recipe(recipe)

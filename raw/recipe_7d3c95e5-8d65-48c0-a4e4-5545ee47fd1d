@@ -1,0 +1,34 @@
+{
+  "id": "7d3c95e5-8d65-48c0-a4e4-5545ee47fd1d",
+  "date": "2026-06-18T16:01:09.850746+00:00",
+  "client_id": 751,
+  "recipe": [
+    {
+      "marca_comercial": "BT-Ouro",
+      "ingrediente_ativo": "Paecilomyces lilacinus cepa URM 7661",
+      "formulacao": "CS - Suspensão de Encapsulado",
+      "tecnica": "Trat. Grãos Armazenados",
+      "cultura": "Mangaba",
+      "praga": "Complexo mancha branca",
+      "dosagem": 25
+    },
+    {
+      "marca_comercial": "Sporane",
+      "ingrediente_ativo": "Benzoato de Emamectina",
+      "formulacao": "Insetos Vivos",
+      "tecnica": "Armadilhas",
+      "cultura": "Cravo",
+      "praga": "Aroeira-mansa",
+      "dosagem": 60
+    },
+    {
+      "marca_comercial": "Paicer WG",
+      "ingrediente_ativo": "Metaflumizone",
+      "formulacao": "GB - Isca Granulada",
+      "tecnica": "Tratamento de sementes",
+      "cultura": "Jabuticaba",
+      "praga": "Botrytis",
+      "dosagem": 55
+    }
+  ]
+}

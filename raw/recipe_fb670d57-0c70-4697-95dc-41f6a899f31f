@@ -1,0 +1,43 @@
+{
+  "id": "fb670d57-0c70-4697-95dc-41f6a899f31f",
+  "date": "2026-06-18T16:01:19.867034+00:00",
+  "client_id": 305,
+  "recipe": [
+    {
+      "marca_comercial": "Biocydia",
+      "ingrediente_ativo": "impirfluxam",
+      "formulacao": "SP - Pó Solúvel",
+      "tecnica": "aplicação foliar",
+      "cultura": "Noz-pecã",
+      "praga": "Trapoeraba",
+      "dosagem": 145
+    },
+    {
+      "marca_comercial": "Off Road",
+      "ingrediente_ativo": "Flutolanil",
+      "formulacao": "Insetos Vivos",
+      "tecnica": "aplicação foliar",
+      "cultura": "Milho",
+      "praga": "Galha-da-coroa-e-raiz",
+      "dosagem": 90
+    },
+    {
+      "marca_comercial": "Gli Pasto",
+      "ingrediente_ativo": "Bacillus thuringiensis BAC092",
+      "formulacao": "Pó Dispersível em Óleo",
+      "tecnica": "Trat. Grãos Armazenados",
+      "cultura": "Milho - Armazenado",
+      "praga": "Ciganinha",
+      "dosagem": 165
+    },
+    {
+      "marca_comercial": "Hugecane",
+      "ingrediente_ativo": "tiofanato-metílico",
+      "formulacao": "TB - Tabletes",
+      "tecnica": "Trat. Grãos Armazenados",
+      "cultura": "Arroz irrigado",
+      "praga": "Ferrugem-do-colmo",
+      "dosagem": 55
+    }
+  ]
+}

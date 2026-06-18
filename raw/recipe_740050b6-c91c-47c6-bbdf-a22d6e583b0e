@@ -1,0 +1,34 @@
+{
+  "id": "740050b6-c91c-47c6-bbdf-a22d6e583b0e",
+  "date": "2026-06-18T16:01:54.944389+00:00",
+  "client_id": 440,
+  "recipe": [
+    {
+      "marca_comercial": "Sarcula 200 SP",
+      "ingrediente_ativo": "Fluensulfona",
+      "formulacao": "CF - Suspensão Encapsulado p/ Trat. Sementes",
+      "tecnica": "aplicação foliar",
+      "cultura": "Caqui",
+      "praga": "Cochonilha-pardinha",
+      "dosagem": 120
+    },
+    {
+      "marca_comercial": "Previcur N",
+      "ingrediente_ativo": "Bacillus Velensis IBSBF 3238",
+      "formulacao": "DC - Concentrado Dispersível",
+      "tecnica": "Trat. Sementes",
+      "cultura": "Kalanchoe",
+      "praga": "Vaquinha-das-solanáceas",
+      "dosagem": 170
+    },
+    {
+      "marca_comercial": "Enelan 500 SC",
+      "ingrediente_ativo": "Fluazaindolizine",
+      "formulacao": "Comprimido solúvel",
+      "tecnica": "Imersão",
+      "cultura": "Violeta",
+      "praga": "Estria-bacteriana",
+      "dosagem": 150
+    }
+  ]
+}

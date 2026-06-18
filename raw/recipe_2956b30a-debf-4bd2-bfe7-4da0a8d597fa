@@ -1,0 +1,43 @@
+{
+  "id": "2956b30a-debf-4bd2-bfe7-4da0a8d597fa",
+  "date": "2026-06-18T16:02:04.963868+00:00",
+  "client_id": 813,
+  "recipe": [
+    {
+      "marca_comercial": "Keshet 25 EC",
+      "ingrediente_ativo": "Bispiribaque-sódico",
+      "formulacao": "SL - Concentrado Solúvel",
+      "tecnica": "Trat. Sementes",
+      "cultura": "Dendê",
+      "praga": "Broca-da-couve",
+      "dosagem": 125
+    },
+    {
+      "marca_comercial": "Certano",
+      "ingrediente_ativo": "clorfluazurom",
+      "formulacao": "FW - Fumigante em Grânulos",
+      "tecnica": "Trat. Grãos Armazenados",
+      "cultura": "Citros",
+      "praga": "Coró",
+      "dosagem": 35
+    },
+    {
+      "marca_comercial": "Trilla Plus",
+      "ingrediente_ativo": "tiram",
+      "formulacao": "GB - Isca Granulada",
+      "tecnica": "Imersão",
+      "cultura": "Farinhas - Armazenada",
+      "praga": "Mofo-azul",
+      "dosagem": 200
+    },
+    {
+      "marca_comercial": "Natucontrol",
+      "ingrediente_ativo": "etefom",
+      "formulacao": "SB - Isca em Pedaços",
+      "tecnica": "Tratamento de sementes",
+      "cultura": "Carambola",
+      "praga": "Ramulária",
+      "dosagem": 35
+    }
+  ]
+}

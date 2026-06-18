@@ -1,0 +1,16 @@
+{
+  "id": "ec4b215a-d169-45e4-8e33-0df20dfbc57c",
+  "date": "2026-06-18T16:02:25.012170+00:00",
+  "client_id": 738,
+  "recipe": [
+    {
+      "marca_comercial": "Gliforce SL",
+      "ingrediente_ativo": "Tiafenacil",
+      "formulacao": "CB - Isca Concentrada",
+      "tecnica": "Terrestre",
+      "cultura": "Cebola",
+      "praga": "Percevejo-marrom",
+      "dosagem": 5
+    }
+  ]
+}

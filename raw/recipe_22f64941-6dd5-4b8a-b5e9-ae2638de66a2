@@ -1,0 +1,43 @@
+{
+  "id": "22f64941-6dd5-4b8a-b5e9-ae2638de66a2",
+  "date": "2026-06-18T16:02:09.977600+00:00",
+  "client_id": 63,
+  "recipe": [
+    {
+      "marca_comercial": "Forst",
+      "ingrediente_ativo": "flumetsulam",
+      "formulacao": "FF - Fumigante em Pastilhas",
+      "tecnica": "Aérea",
+      "cultura": "Repolho",
+      "praga": "Antracnose-maculata",
+      "dosagem": 160
+    },
+    {
+      "marca_comercial": "Hampen",
+      "ingrediente_ativo": "Bacillus thuringiensis, CPQBA 040-11 DRM 11",
+      "formulacao": "DC - Concentrado Dispersível",
+      "tecnica": "Terrestre",
+      "cultura": "Pimenta-do-reino",
+      "praga": "Capim-de-bezerra",
+      "dosagem": 80
+    },
+    {
+      "marca_comercial": "Methaouro WP",
+      "ingrediente_ativo": "Pseudomonas chlororaphis isolado CCTB19",
+      "formulacao": "UL - Ultra Baixo Volume",
+      "tecnica": "Aérea",
+      "cultura": "Trigo-mourisco",
+      "praga": "Brusone",
+      "dosagem": 140
+    },
+    {
+      "marca_comercial": "Triunfe",
+      "ingrediente_ativo": "impirfluxam",
+      "formulacao": "Ácaros vivos",
+      "tecnica": "Aérea",
+      "cultura": "Erva-doce",
+      "praga": "Mancha-marrom",
+      "dosagem": 45
+    }
+  ]
+}

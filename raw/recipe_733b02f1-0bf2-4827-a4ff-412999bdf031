@@ -1,0 +1,16 @@
+{
+  "id": "733b02f1-0bf2-4827-a4ff-412999bdf031",
+  "date": "2026-06-18T16:01:59.959200+00:00",
+  "client_id": 637,
+  "recipe": [
+    {
+      "marca_comercial": "Madison",
+      "ingrediente_ativo": "pirimifós-metílico",
+      "formulacao": "GB - Isca Granulada",
+      "tecnica": "Trat. Sementes",
+      "cultura": "Tratamento de solo",
+      "praga": "Cabelo-de-negro",
+      "dosagem": 140
+    }
+  ]
+}

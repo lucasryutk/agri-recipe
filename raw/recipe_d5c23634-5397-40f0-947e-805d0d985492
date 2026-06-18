@@ -1,0 +1,16 @@
+{
+  "id": "d5c23634-5397-40f0-947e-805d0d985492",
+  "date": "2026-06-18T16:02:14.991374+00:00",
+  "client_id": 608,
+  "recipe": [
+    {
+      "marca_comercial": "Leale SC",
+      "ingrediente_ativo": "Trichoderma asperellum , isolado T2",
+      "formulacao": "GR - Granulado",
+      "tecnica": "Terrestre",
+      "cultura": "Ptoporium",
+      "praga": "Ausente",
+      "dosagem": 175
+    }
+  ]
+}
