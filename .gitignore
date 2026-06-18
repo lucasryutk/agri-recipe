@@ -1,4 +1,10 @@
 .env
 generating.logs
 .vscode
-.raw
+raw
+medallion/bronze/*
+medallion/silver/*
+medallion/gold/*
+!medallion/bronze/.gitkeep
+!medallion/silver/.gitkeep
+!medallion/gold/.gitkeep

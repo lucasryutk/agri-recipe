@@ -17,7 +17,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.StreamHandler(),                        
-        logging.FileHandler(f'{path}/generating.logs', encoding='utf-8')  
+        logging.FileHandler(f'{path}/logs/generating.logs', encoding='utf-8')  
     ]
 )
 
