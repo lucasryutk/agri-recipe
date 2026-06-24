@@ -36,9 +36,9 @@ def limpeza(data: dict):
     return tratado
 
 
-def ler_bronze(path):
+def ler_bronze():
     data = []
-    p = Path(str(path))
+    p = Path('medallion/bronze')
     files = [f for f in p.glob('*') if f.name != '.gitkeep']
     for i in files:
         with open(i, 'r', encoding='utf-8') as file:
@@ -47,14 +47,13 @@ def ler_bronze(path):
             data.append(data_clean)
     return data
 
-def salvar_silver(path, data):
-    p = Path(path)
+def salvar_silver():
+    data = ler_bronze('medallion/bronze')
+    p = Path('medallion/silver')
     p.mkdir(parents=True, exist_ok=True)
 
     file_path = p / f'{datetime.today().strftime('%Y-%m-%d')}.json'
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
-data = ler_bronze('medallion/bronze')
-
-salvar_silver('medallion/silver', data)
+salvar_silver()

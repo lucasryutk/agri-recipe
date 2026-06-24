@@ -14,9 +14,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def copiar_colar(origem, destino):
-    origem = Path(origem)
-    destino = Path(destino)
+def copiar_colar():
+    origem = Path('raw')
+    destino = Path('medallion/bronze')
 
     logger.info(f'Iniciando cópía de arquivos de {origem} para {destino}')
     try:
@@ -31,4 +31,4 @@ def copiar_colar(origem, destino):
         logger.info(f'Erro ao copiar dados de {origem} para {destino}', exc_info=True)
         raise
 
-copiar_colar('raw', 'medallion/bronze')
+copiar_colar()
