@@ -4,12 +4,16 @@ import re
 from datetime import datetime 
 from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent.parent  
+LOG_DIR = BASE_DIR / "logs"
+LOG_DIR.mkdir(exist_ok=True)
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.StreamHandler(),                        
-        logging.FileHandler(f'logs/silver_stage_logs.logs', encoding='utf-8')  
+        logging.StreamHandler(),
+        logging.FileHandler(LOG_DIR / 'silver_stage.log', encoding='utf-8')
     ]
 )
 
@@ -38,7 +42,7 @@ def limpeza(data: dict):
 
 def ler_bronze():
     data = []
-    p = Path('medallion/bronze')
+    p = BASE_DIR / 'medallion' /' bronze'
     files = [f for f in p.glob('*') if f.name != '.gitkeep']
     for i in files:
         with open(i, 'r', encoding='utf-8') as file:
@@ -48,12 +52,10 @@ def ler_bronze():
     return data
 
 def salvar_silver():
-    data = ler_bronze('medallion/bronze')
-    p = Path('medallion/silver')
+    data = ler_bronze()
+    p = BASE_DIR / 'medallion' /' silver'
     p.mkdir(parents=True, exist_ok=True)
 
     file_path = p / f'{datetime.today().strftime('%Y-%m-%d')}.json'
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
-
-salvar_silver()

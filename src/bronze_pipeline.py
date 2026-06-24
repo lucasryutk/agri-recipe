@@ -2,21 +2,25 @@ import shutil
 import logging
 from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent.parent 
+LOG_DIR = BASE_DIR / "logs"
+LOG_DIR.mkdir(exist_ok=True)
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.StreamHandler(),                        
-        logging.FileHandler(f'logs/bronze_stage_logs.logs', encoding='utf-8')  
+        logging.StreamHandler(),
+        logging.FileHandler(LOG_DIR / 'bronze_stage.log', encoding='utf-8')
     ]
 )
 
 logger = logging.getLogger(__name__)
 
 
-def copiar_colar():
-    origem = Path('raw')
-    destino = Path('medallion/bronze')
+def salvar_bronze():
+    origem = BASE_DIR / 'raw'
+    destino = BASE_DIR / 'medallion' / 'bronze'
 
     logger.info(f'Iniciando cópía de arquivos de {origem} para {destino}')
     try:
@@ -30,5 +34,3 @@ def copiar_colar():
     except Exception as e:
         logger.info(f'Erro ao copiar dados de {origem} para {destino}', exc_info=True)
         raise
-
-copiar_colar()
