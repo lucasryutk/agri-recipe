@@ -9,7 +9,9 @@ AgroApi - Api disponibilizada pela Embrapa - https://www.portal.agroapi.cnptia.e
 # Arquitetura Medallion
 
 | 🥉 Bronze | Cópia bruta dos arquivos JSON da API, sem transformação |
+
 | 🥈 Silver | Dados limpos, tipados e validados |
+
 | 🥇 Gold   | Dados agregados e prontos para consumo analítico 
 
 
@@ -50,12 +52,15 @@ agri-recipe/
     cd agri-recipe
 
 4. Crie um arquivo .env na pasta e salve a chave na variável 
+
     EMBRAPA_API_KEY = "sua_chave"
 
 5. Crie registros fictícios
+
     python src/app.py
 
 6. Execute os pipelines de ETL
+
     python src/main.py
 
 
