@@ -1,4 +1,5 @@
 .env
+__pychace__
 generating.logs
 .vscode
 raw
