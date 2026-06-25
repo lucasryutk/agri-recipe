@@ -43,20 +43,20 @@ agri-recipe/
 
 2. Clone o repositório
 
-git clone git@github.com:lucasryutk/agri-recipe.git
+    git clone git@github.com:lucasryutk/agri-recipe.git
 
 3. Entra na pasta do projeto
 
-cd agri-recipe
+    cd agri-recipe
 
 4. Crie um arquivo .env na pasta e salve a chave na variável 
-EMBRAPA_API_KEY = "sua_chave"
+    EMBRAPA_API_KEY = "sua_chave"
 
 5. Crie registros fictícios
-python src/app.py
+    python src/app.py
 
 6. Execute os pipelines de ETL
-python src/main.py
+    python src/main.py
 
 
 ## Autor: Lucas Ryu Takabayashi
